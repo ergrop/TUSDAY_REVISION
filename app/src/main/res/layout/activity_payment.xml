@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment"
+    android:background="@drawable/wall2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+
+                android:text="@string/till_number_is_44033"
+                android:textStyle="italic"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/till_number"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#D8CBCB"
+                android:hint="@string/entert_till_number"
+                android:inputType="number"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                tools:ignore="TextFields"
+                android:maxLength="5"/>
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#D8CBCB"
+            android:hint="@string/enter_payment_amount"
+            android:inputType="number"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            tools:ignore="TextFields"
+            android:maxLength="5"/>
+
+            <EditText
+                android:id="@+id/pin_area"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#D8CBCB"
+                android:hint="@string/enter_pin"
+                android:inputType="numberPassword"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                tools:ignore="TextFields"
+                android:maxLength="4"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/cancell"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="41dp" />
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="140dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/reset"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="41dp" />
+
+            <Button
+                android:id="@+id/ok_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/confirm"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="41dp"/>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "26815137051",
+    "firebase_url": "https://projecter-5a88d.firebaseio.com",
+    "project_id": "projecter-5a88d",
+    "storage_bucket": "projecter-5a88d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26815137051:android:2c27c98dd5c2ffef",
+        "android_client_info": {
+          "package_name": "com.example.ergroproxy.harakarailway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26815137051-115kfjmo3dijktmldg2sctmehkr75bb1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ergroproxy.harakarailway",
+            "certificate_hash": "25e9c9175ded7b9765e77273099d5d25cec91718"
+          }
+        },
+        {
+          "client_id": "26815137051-k6ppupc1bbnitqi7mnedn4640m9va2bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6Z64g-m7qky1SzOBD2muo9CaKU3qr3NM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26815137051-k6ppupc1bbnitqi7mnedn4640m9va2bh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
